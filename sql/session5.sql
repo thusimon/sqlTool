@@ -17,7 +17,7 @@ VALUES  ('Ringo', 'Tabby', 4),
         ('George Michael', 'Ragdoll', 9),
         ('Jackson', 'Sphynx', 7);
        
-SELECT name as Name, age AS Age FROM cats;
+SELECT name AS Name, age AS Age FROM cats;
 
 SELECT * FROM cats WHERE age = 4;
 

@@ -26,10 +26,10 @@ SELECT
 FROM books
 GROUP BY author_fname, author_lname;
 
-SELECT author_lname, SUM(pages) as page FROM books
+SELECT author_lname, SUM(pages) AS page FROM books
 GROUP BY author_lname
 ORDER BY page DESC;
 
-SELECT released_year, COUNT(*), AVG(stock_quantity) as quantity FROM books
+SELECT released_year, COUNT(*), AVG(stock_quantity) AS quantity FROM books
 GROUP BY released_year
 ORDER BY quantity DESC;
